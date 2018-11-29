@@ -55,7 +55,7 @@ Accept wildcard characters: False
 
 ### -UsersPermissionToCreateGroupsEnabled
 Indicates whether to allow users to create security groups.
-This setting is applied company-wide.  Set to $False to disable users' ability to create security groups. 
+This setting is applied company-wide.  Set to $False to disable user's ability to create security groups. 
 
 > [!NOTE]
 > For information on how to allow users to create Office 365 groups, please see [Azure Active Directory Cmdlets for Configuring Group Settings](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets)
@@ -108,7 +108,7 @@ Accept wildcard characters: False
 ### -UsersPermissionToCreateLOBAppsEnabled
 Indicates whether to allow users to create new applications.
 This setting is applied company-wide.
-Set to False to disable users' ability to create new applications for their organization.
+Set to False to disable user's ability to create new applications for their organization.
 
 ```yaml
 Type: Boolean
@@ -125,7 +125,7 @@ Accept wildcard characters: False
 ### -UsersPermissionToReadOtherUsersEnabled
 Indicates whether to allow users to view the profile info of other users in their company.
 This setting is applied company-wide.
-Set to $False to disable users' ability to use the Azure AD module for Windows PowerShell to access user information for their organization.
+Set to $False to disable user's ability to use the Azure AD module for Windows PowerShell to access user information for their organization.
 
 ```yaml
 Type: Boolean
@@ -142,7 +142,7 @@ Accept wildcard characters: False
 ### -UsersPermissionToUserConsentToAppEnabled
 Indicates whether to allow users to consent to apps that require access to their cloud user data, such as directory user profile or Office 365 mail and OneDrive for business.
 This setting is applied company-wide.
-Set to $False to disable users' ability to grant consent to applications.
+Set to $False to disable user's ability to grant consent to applications.
 
 ```yaml
 Type: Boolean
